@@ -10,4 +10,4 @@ CREATE TABLE student(
 
  alter table student add gpa decimal (3,2);
 
- alter table student dro
+ alter table student drop gpa;
