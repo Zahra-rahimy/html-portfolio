@@ -8,4 +8,4 @@ CREATE TABLE student(
 
  drop table student;
 
- alter table student ta
+ alter table student add gpa
