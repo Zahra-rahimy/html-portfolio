@@ -3,4 +3,4 @@ CREATE TABLE student(
     name VARCHAR(20),
     major VARCHAR (20),
     PRIMARY KEY(student_id),
- );
+ )
