@@ -6,4 +6,4 @@ CREATE TABLE student(
  );
  describe student;
 
- drop table student
+ drop table student;
