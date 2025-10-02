@@ -7,3 +7,5 @@ CREATE TABLE student(
  describe student;
 
  drop table student;
+
+ alter
