@@ -5,3 +5,5 @@ CREATE TABLE student(
     PRIMARY KEY(student_id)
  );
  describe student;
+
+ drop table student
