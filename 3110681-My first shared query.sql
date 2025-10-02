@@ -8,4 +8,4 @@ CREATE TABLE student(
 
  drop table student;
 
- alter
+ alter table student ta
