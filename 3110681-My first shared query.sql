@@ -4,4 +4,4 @@ CREATE TABLE student(
     major VARCHAR (20),
     PRIMARY KEY(student_id)
  );
- describe st
+ describe student;
