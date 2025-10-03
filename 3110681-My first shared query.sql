@@ -16,4 +16,4 @@ CREATE TABLE student(
  
  INSERT into student VALUES(2, " Kate", "Biologi");
 
- insert into student()
+ insert into student(student_id, name)
