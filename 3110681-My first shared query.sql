@@ -14,4 +14,4 @@ CREATE TABLE student(
 
  select * from student;
  
- inser
+ insert  into
