@@ -18,4 +18,4 @@ drop table student;
  
  INSERT into student VALUES(1, "Ali", "Biologi");
 
- insert into student(student_id, name) values(2, "Jack");
+ insert into student values(3, "Jack", "engineer");
