@@ -1,7 +1,7 @@
 CREATE TABLE student(
     student_id INT,
     name VARCHAR(20) not null,
-    major VARCHAR (20) ,
+    major VARCHAR (20) unique,
     PRIMARY KEY(student_id)
  );
  describe student;
