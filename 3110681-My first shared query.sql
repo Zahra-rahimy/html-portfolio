@@ -14,4 +14,4 @@ CREATE TABLE student(
 
  select * from student;
  
- insert into student value
+ insert into student values(1, )
