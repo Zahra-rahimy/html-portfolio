@@ -16,6 +16,6 @@ drop table student;
  
  select * from student;
  
- INSERT into student VALUES(4, NULL, "Biologi");
+ INSERT into student VALUES(1, NULL, "Biologi");
 
- insert into student(student_id, name) values(3, "Jack");
+ insert into student(student_id, name) values(2, "Jack");
