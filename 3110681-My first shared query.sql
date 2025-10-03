@@ -14,4 +14,4 @@ CREATE TABLE student(
 
  select * from student;
  
- INSERT into student VALUES(1, " KAte")(1, Kate , Biologi);
+ INSERT into student VALUES(1, " KAte", "BIologi ")(1, Kate , Biologi);
