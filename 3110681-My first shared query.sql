@@ -12,8 +12,9 @@ CREATE TABLE student(
 
  alter table student drop gpa;
 
+ 
  select * from student;
  
- INSERT into student VALUES(2, NULL, "Biologi");
+ INSERT into student VALUES(4, NULL, "Biologi");
 
  insert into student(student_id, name) values(3, "Jack");
