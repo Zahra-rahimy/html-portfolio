@@ -8,8 +8,8 @@ CREATE TABLE student(
 
  drop table student;
 
- alter table student add gpa decimal (3,2);
+ alter table student add gpa Indecimal (3,2);
 
  alter table student drop gpa;
 
- select * from stu
+ select * from student;
