@@ -13,3 +13,5 @@ CREATE TABLE student(
  alter table student drop gpa;
 
  select * from student;
+ 
+ inser
