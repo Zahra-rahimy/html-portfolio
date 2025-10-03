@@ -12,4 +12,4 @@ CREATE TABLE student(
 
  alter table student drop gpa;
 
- select * stu
+ select * from stu
