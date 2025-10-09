@@ -1,5 +1,5 @@
 drop table student;
- CREATE TABLE student(
+ CREATE TABLE employee(
     student_id INT,
     name VARCHAR(20) not null,
     major VARCHAR (20) unique,
