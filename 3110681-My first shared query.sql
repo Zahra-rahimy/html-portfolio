@@ -41,5 +41,6 @@ alter table employee
 
  create table work_with(
      emp_id int,
+     client_id int,
      
  )
