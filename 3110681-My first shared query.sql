@@ -30,8 +30,7 @@ alter table employee
  add foreign key (super_id)
  references employee(emp_id)
  on delete set null;
-cliet_id int 
- references
+ 
  create table client(
      client_id int primary key,
      client_name varchar(40),
