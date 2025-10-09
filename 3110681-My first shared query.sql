@@ -22,4 +22,4 @@ CREATE TABLE employee(
  alter table employee
  add foreign key (branch_id)
  references branch(branch_id)
- on delete s
+ on delete set null;
