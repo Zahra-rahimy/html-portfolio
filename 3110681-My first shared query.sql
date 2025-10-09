@@ -31,12 +31,11 @@ alter table employee
  references employee(emp_id)
  on delete set null;
 cliet_id int 
-
+ references
  create table client(
      client_id int primary key,
      client_name varchar(40),
      branch_id int,
-     foreign key()
-
+     foreign key(branch_id)
     
  )
