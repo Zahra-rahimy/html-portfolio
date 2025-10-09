@@ -12,5 +12,6 @@ CREATE TABLE employee(
  describe employee;
 
  create table branch(
-     branch_id int primary 
+     branch_id int primary key,
+     branch_nam
  )
