@@ -39,4 +39,6 @@ alter table employee
     
  );
 
- create table w
+ create table work_with(
+     
+ )
