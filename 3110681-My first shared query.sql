@@ -58,7 +58,7 @@ alter table employee
  );
 
 
- insert into employee values (102, 'Michael',' Wallace','1967-11-17', 'M',250000, null, null);
+ insert into employee values (102, 'Michael',' Scott','1967-11-17', 'M',250000, null, null);
 
 insert into branch values(1, 'Corporate', 100, '2006-02-09');
 
