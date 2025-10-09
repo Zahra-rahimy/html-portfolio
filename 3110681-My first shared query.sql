@@ -1,6 +1,6 @@
 drop table student;
  CREATE TABLE employee(
-    emp_id INT,
+    emp_id INT Primary K,
     name VARCHAR(20) not null,
     major VARCHAR (20) unique,
     PRIMARY KEY(student_id)
