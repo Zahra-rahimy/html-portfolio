@@ -58,4 +58,4 @@ alter table employee
  );
 
 
- insert
+ insert into table employee
