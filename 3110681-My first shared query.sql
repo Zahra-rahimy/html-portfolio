@@ -39,7 +39,7 @@ alter table employee
     
  );
 
- create table work_with(
+ create table works_with(
      emp_id int,
      client_id int,
      total_sales int,
