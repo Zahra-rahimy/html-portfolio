@@ -45,5 +45,14 @@ alter table employee
      total_sales int,
      primary key (emp_id, client_id),
      foreign key (emp_id)references employee (emp_id) on delete cascade,
-     foreign key (client_id) references client (client_id)
- )
+     foreign key (client_id) references client (client_id)on delete cascade
+ );
+
+
+ create table branch_supplier(
+     branch_id int,
+     supplier_name varchar(40),
+     supplier_type varchar(40),
+     primary  key (branch_id, supplier_name),
+     foreign key (branch_id)references branch(branch_id)on delete cascade
+ );
