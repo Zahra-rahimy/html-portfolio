@@ -16,5 +16,5 @@ CREATE TABLE employee(
      branch_name varchar(40),
      mgr_id int,
      mgr_start_date DATE,
-     foreign key (mgr_id) re
+     foreign key (mgr_id) references emplo
  )
