@@ -7,8 +7,8 @@ drop table student;
     sex VARCHAR (1),
     salary int,
     super_id int,
-    branch_id int,
-    PRIMARY KEY(student_id)
+    branch_id int
+    
  );
  describe student;
 
