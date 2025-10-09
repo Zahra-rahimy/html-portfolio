@@ -10,15 +10,3 @@ CREATE TABLE employee(
     
  );
  describe employee;
-
-
- alter table student add gpa Indecimal (3,2);
-
- alter table student drop gpa;
-
- 
- select * from student;
- 
- INSERT into student VALUES(1, "Ali", "Biologi");
-
- insert into student values(3, "Jack", "engineer");
