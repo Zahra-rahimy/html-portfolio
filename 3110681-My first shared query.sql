@@ -3,7 +3,8 @@ drop table student;
     emp_id INT Primary Key,
     first_name VARCHAR(40),
     last_name VARCHAR(40),
-    sex VARCHAR (1) unique,
+    birth_day 
+    sex VARCHAR (1),
     PRIMARY KEY(student_id)
  );
  describe student;
