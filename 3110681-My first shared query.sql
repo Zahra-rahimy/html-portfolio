@@ -111,3 +111,6 @@ INSERT INTO works_with VALUES(105, 404, 33000);
 INSERT INTO works_with VALUES(107, 405, 26000);
 INSERT INTO works_with VALUES(102, 406, 15000);
 INSERT INTO works_with VALUES(105, 406, 130000);
+
+
+select from*
