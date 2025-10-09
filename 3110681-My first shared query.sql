@@ -69,3 +69,15 @@ where emp_id = 102;
 insert into employee values( 103, 'Angela', ' MArtin', '1971-06-25', 'F', 63000, 102, 2);
 insert into employee values(104,'Kelly', 'Kapoor', '1980-02-05', 'F',55000, 102,2);
 insert into employee values(105, ' Stanley', 'Hudson', '1958-02-19', 'M',69000,102,2);
+
+
+INSERT INTO employee VALUES(106, 'Josh', 'Porter', '1969-09-05', 'M', 78000, 100, NULL);
+
+INSERT INTO branch VALUES(3, 'Stamford', 106, '1998-02-13');
+
+UPDATE employee
+SET branch_id = 3
+WHERE emp_id = 106;
+
+INSERT INTO employee VALUES(107, 'Andy', 'Bernard', '1973-07-22', 'M', 65000, 106, 3);
+INSERT INTO employee VALUES(108, 'Jim', 'Halpert', '1978-10-01', 'M', 71000, 106, 3);
