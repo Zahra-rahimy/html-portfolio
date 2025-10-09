@@ -58,7 +58,7 @@ alter table employee
  );
 
 
- insert into employee values (102, 'Michael',' Scott','1964-03-15', 'M',75000, 100, null);
+insert into employee values (102, 'Michael',' Scott','1964-03-15', 'M',75000, 100, null);
 
 insert into branch values(2, 'Scranton', 102, '1992-04-06');
 
@@ -67,6 +67,5 @@ set branch_id = 2
 where emp_id = 102;
 
 insert into employee values( 103, 'Angela', ' MArtin', '1971-06-25', 'F', 63000, 102, 2);
-
-insert into employee values(104,'Kelly', 'Kapoor', '1980-02-05', 'F',55000, 102,2)
-insert into employee values(105, ' Stanley', 'Hudson', '1958-02019', 'M',69000,)
+insert into employee values(104,'Kelly', 'Kapoor', '1980-02-05', 'F',55000, 102,2);
+insert into employee values(105, ' Stanley', 'Hudson', '1958-02-19', 'M',69000,102,2);
