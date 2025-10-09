@@ -20,3 +20,4 @@ CREATE TABLE employee(
  );
 
  alter table employee
+ add foreign key (bran)
