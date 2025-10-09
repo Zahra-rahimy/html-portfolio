@@ -11,4 +11,6 @@ CREATE TABLE employee(
  );
  describe employee;
 
- create table branch
+ create table branch(
+     branch_id int primary 
+ )
