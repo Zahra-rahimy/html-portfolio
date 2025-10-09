@@ -1,5 +1,4 @@
-drop table student;
- CREATE TABLE employee(
+CREATE TABLE employee(
     emp_id INT Primary Key,
     first_name VARCHAR(40),
     last_name VARCHAR(40),
@@ -12,7 +11,6 @@ drop table student;
  );
  describe employee;
 
- drop table student;
 
  alter table student add gpa Indecimal (3,2);
 
