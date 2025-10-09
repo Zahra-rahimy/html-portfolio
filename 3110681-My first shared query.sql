@@ -28,5 +28,5 @@ alter table employee
 
  alter table employee
  add foreign key (super_id)
- references employee(branch_id)
+ references employee(emp_id)
  on delete set null;
