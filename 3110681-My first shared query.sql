@@ -20,4 +20,4 @@ CREATE TABLE employee(
  );
 
  alter table employee
- add foreign key (bran)
+ add foreign key (branch_id)
