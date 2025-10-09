@@ -19,7 +19,9 @@ CREATE TABLE employee(
      foreign key (mgr_id) references employee(emp_id)on delete set null
  );
 
- alter table employee
+ 
+ 
+alter table employee
  add foreign key (branch_id)
  references branch(branch_id)
  on delete set null;
