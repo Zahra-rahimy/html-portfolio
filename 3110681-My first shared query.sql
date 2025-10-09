@@ -66,4 +66,4 @@ update employee
 set branch_id = 1
 where emp_id = 100;
 
-insert into employee values( 101,)
+insert into employee values( 101, 'Jan', ' Le')
