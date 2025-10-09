@@ -63,7 +63,7 @@ alter table employee
 insert into branch values(2, 'Scranton', 102, '1992-04-06');
 
 update employee 
-set branch_id = 1
-where emp_id = 100;
+set branch_id = 2
+where emp_id = 102;
 
 insert into employee values( 101, 'Jan', ' Levinson', '1961-05-11', 'F', 110000, 100, 1);
