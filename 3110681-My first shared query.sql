@@ -13,5 +13,6 @@ CREATE TABLE employee(
 
  create table branch(
      branch_id int primary key,
-     branch_nam
+     branch_name varchar(40),
+     
  )
