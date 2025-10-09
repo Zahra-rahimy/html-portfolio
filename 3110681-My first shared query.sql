@@ -58,4 +58,4 @@ alter table employee
  );
 
 
- insert into employee
+ insert into employee values (100, '')
