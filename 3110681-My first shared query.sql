@@ -33,7 +33,8 @@ alter table employee
 cliet_id int 
 
  create table client(
-     client_id int primary 
+     client_id int primary key,
+     c
 
     
  )
