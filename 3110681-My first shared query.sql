@@ -5,6 +5,8 @@ drop table student;
     last_name VARCHAR(40),
     birth_day DATE,
     sex VARCHAR (1),
+    salary int,
+    su
     PRIMARY KEY(student_id)
  );
  describe student;
