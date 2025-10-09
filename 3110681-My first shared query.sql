@@ -57,5 +57,5 @@ alter table employee
      foreign key (branch_id)references branch(branch_id)on delete cascade
  );
 
--- corperater--
+-- corporate--
  insert into table employee
