@@ -59,3 +59,5 @@ alter table employee
 
 
  insert into employee values (100, 'David',' Wallace','1967-11-17', 'M',250000, null, null);
+
+insert into branch values
