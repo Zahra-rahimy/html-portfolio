@@ -2,7 +2,7 @@ drop table student;
  CREATE TABLE employee(
     emp_id INT Primary Key,
     first_name VARCHAR(40),
-    las_name VARCHAR(40),
+    last_name VARCHAR(40),
     major VARCHAR (20) unique,
     PRIMARY KEY(student_id)
  );
