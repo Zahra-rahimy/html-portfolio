@@ -32,7 +32,8 @@ alter table employee
  on delete set null;
 cliet_id int 
 
- create tablpe client(
+ create table client(
+     clie
 
     
  )
