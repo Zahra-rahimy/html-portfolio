@@ -45,5 +45,5 @@ alter table employee
      total_sales int,
      primary key (emp_id, client_id),
      foreign key (emp_id)references employee (emp_id) on delete cascade,
-     foreign key (client)
+     foreign key (client_id) references client (client_id)
  )
