@@ -43,5 +43,5 @@ alter table employee
      emp_id int,
      client_id int,
      total_sales int,
-     primary key (emp_id, client_id),
+     primary key (emp_id, client_id)
  )
