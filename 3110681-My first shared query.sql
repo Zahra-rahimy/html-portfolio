@@ -60,7 +60,7 @@ alter table employee
 
  insert into employee values (102, 'Michael',' Scott','1964-03-15', 'M',75000, 100, null);
 
-insert into branch values(2, 'Scranton', 102, '1-04-06');
+insert into branch values(2, 'Scranton', 102, '1992-04-06');
 
 update employee 
 set branch_id = 1
