@@ -11,4 +11,4 @@ CREATE TABLE employee(
  );
  describe employee;
 
- create table
+ create table branch
