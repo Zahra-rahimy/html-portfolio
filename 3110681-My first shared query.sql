@@ -30,3 +30,9 @@ alter table employee
  add foreign key (super_id)
  references employee(emp_id)
  on delete set null;
+
+
+ create table client(
+
+     
+ )
