@@ -40,5 +40,6 @@ alter table employee
  );
 
  create table work_with(
+     emp_id int,
      
  )
