@@ -56,3 +56,6 @@ alter table employee
      primary  key (branch_id, supplier_name),
      foreign key (branch_id)references branch(branch_id)on delete cascade
  );
+
+
+ insert
