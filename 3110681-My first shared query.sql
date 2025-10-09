@@ -10,7 +10,7 @@ drop table student;
     branch_id int
     
  );
- describe student;
+ describe employee;
 
  drop table student;
 
