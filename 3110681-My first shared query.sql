@@ -34,7 +34,8 @@ cliet_id int
 
  create table client(
      client_id int primary key,
-     client_name varchar(40)
+     client_name varchar(40),
+     branch_id 
 
     
  )
