@@ -21,4 +21,5 @@ CREATE TABLE employee(
 
  alter table employee
  add foreign key (branch_id)
- references branch(bran)
+ references branch(branch_id)
+ on delete s
