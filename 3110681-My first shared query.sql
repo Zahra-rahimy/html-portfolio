@@ -64,4 +64,6 @@ insert into branch values(1, 'Corporate', 100, '2006-02-09');
 
 update employee 
 set branch_id = 1
-where emp_id = 100
+where emp_id = 100;
+
+insert into emplo
