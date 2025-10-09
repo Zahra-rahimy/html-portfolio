@@ -10,3 +10,5 @@ CREATE TABLE employee(
     
  );
  describe employee;
+
+ create table
