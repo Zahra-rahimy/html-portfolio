@@ -18,3 +18,5 @@ CREATE TABLE employee(
      mgr_start_date DATE,
      foreign key (mgr_id) references employee(emp_id)on delete set null
  );
+
+ alter
