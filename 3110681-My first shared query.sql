@@ -9,7 +9,7 @@ CREATE TABLE employee(
     branch_id int
     
  );
- describe employee;
+ describe branch;
 
  create table branch(
      branch_id int primary key,
@@ -17,4 +17,4 @@ CREATE TABLE employee(
      mgr_id int,
      mgr_start_date DATE,
      foreign key (mgr_id) references employee(emp_id)on delete set null
- )
+ );
