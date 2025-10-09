@@ -68,5 +68,5 @@ where emp_id = 102;
 
 insert into employee values( 103, 'Angela', ' MArtin', '1971-06-25', 'F', 63000, 102, 2);
 
-insert into employee values(104)
+insert into employee values(104,'Kelly', 'Ka')
 insert into employee values()
