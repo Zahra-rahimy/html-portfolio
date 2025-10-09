@@ -36,7 +36,7 @@ cliet_id int
      client_id int primary key,
      client_name varchar(40),
      branch_id int,
-     fore
+     foreign key()
 
     
  )
